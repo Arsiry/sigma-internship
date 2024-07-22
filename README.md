@@ -62,6 +62,8 @@ Data_Train.xlsx
 
 Test_set.xlsx
 
+__________________________________________________________________
+
 2. Feature Engineering
 
 2.1. Example - Concrete Formulations
@@ -164,3 +166,22 @@ application_train.csv
 
 Home Credit Default Risk - Can you predict how capable each applicant is of repaying a loan?
 
+2.8. Feature Engineering Reference Guide
+
+     feature-engineering/feature-engineering-reference-guide.ipynb
+
+titanic_train.csv
+
+Titanic Dataset
+
+__________________________________________________________________
+
+3. Kaggle Competitions
+
+3.1. Titanic - Machine Learning from Disaster
+
+Predict survival on the Titanic
+
+- titanic_train.csv
+- titanic_test.csv
+- titanic_gender_submission.csv
