@@ -11,13 +11,11 @@ Prepare a machine learning model
 Predict the probability of user clicking the ad which is shown to them on the partner websites for the next 7 days on the basis of historical view log data, ad impression data and user data.
 
      (task_1_dataset/)
-
      (train.csv item_data.csv viewlog.csv | test.csv  sample_submission.csv)
 
 The evaluated metric should be "area under the ROC curve" between the predicted probability and the observed target.
 
      -- VS Code
-
      -- Python (Numpy, Pandas, MatplotLib, Seaborn, Scikit-Learn, XGBoost)
 
 Created data transformation pipeline
@@ -37,63 +35,92 @@ Best Model is selected (Gradient Boosting, the evaluated metric is "area under t
 __________________________________________________________________
 
 TASK 2
-Prepare a machine learning model
-     The dataset provided to you has data for several websites owned by the same company and they are asking for your help for what should be their approach to set reserve prices and what is the range for reserve prices they should be setting for July.
-(task_2_dataset/AD-Tech.csv)
 
--- VS Code
--- Python (Numpy, Pandas, MatplotLib, Seaborn, Scipy, Scikit-Learn, XGBoost)
+Prepare a machine learning model
+     
+The dataset provided to you has data for several websites owned by the same company and they are asking for your help for what should be their approach to set reserve prices and what is the range for reserve prices they should be setting for July.
+
+     (task_2_dataset/AD-Tech.csv)
+
+     -- VS Code
+     -- Python (Numpy, Pandas, MatplotLib, Seaborn, Scipy, Scikit-Learn, XGBoost)
+
 EDA is conducted 
+
 Feature Engineering is provided
+
 Decision Trees, Random Forest, Gradient Boosting were applied
+
 Best Model is selected (Random Forest and Gradient Boosting, the evaluated metric is mean absolute error)
+
      task_2.ipynb 
 __________________________________________________________________
 
 TASK 7
+
 Prepare a machine learning model
-     The dataset provided to you has data for several websites owned by the same company and they are asking for your help for what should be their approach to set reserve prices and what is the range for reserve prices they should be setting for July.
+
+The dataset provided to you has data for several websites owned by the same company and they are asking for your help for what should be their approach to set reserve prices and what is the range for reserve prices they should be setting for July.
+
 (task_7_dataset/Dataset.csv - dataset equal to dataset of Task 2)
 
--- VS Code
--- Python (Numpy, Pandas, MatplotLib, Seaborn, Scipy, Scikit-Learn, TensorFlow, Keras)
+     -- VS Code
+     -- Python (Numpy, Pandas, MatplotLib, Seaborn, Scipy, Scikit-Learn, TensorFlow, Keras)
+
 EDA is conducted 
+
 Feature Engineering is provided
+
 ANN were applied
+
      task_3.ipynb 
 __________________________________________________________________
 
 TASK 3
+
 Collect data and Provide EDA
 
--- SingleStore
--- Created a database to ingest millions of simulated Ad Campaign events from a Kafka workspace.
-Database is configured
-Data are collected for 3 days
-AdTechDatabase.pdf
+     -- SingleStore
 
--- Metabase
--- Use a dashboard tool Metabase to connect to the database to visualize and analyze the event data.
+Created a database to ingest millions of simulated Ad Campaign events from a Kafka workspace.
+
+Database is configured
+
+Data are collected for 3 days
+
+     AdTechDatabase.pdf
+
+     -- Metabase
+
+Use a dashboard tool Metabase to connect to the database to visualize and analyze the event data.
+
 EDA is conducted
-AdTechDashboard.pdf
+
+     AdTechDashboard.pdf
 
 __________________________________________________________________
 
 TASK 4
+
 Database Mongo. 
+
 Design the DB for a task in AdTech domain. Make queries for data ingestion, extraction, aggregation.
 
 BD in AdTech domain from Task 1:
-     train.csv 
-     viewlog.csv
+    
+     train.csv     
+     viewlog.csv    
      item_data.csv 
 
--- Lucidchart
+     -- Lucidchart
+
 Visual data model diagram
+
 Data normalization
+
 Indexes
-     AdTechDatabaseModel-SimpleSchema.pdf
-     AdTechDatabaseModel-DatabaseSchema.pdf
+          AdTechDatabaseModel-SimpleSchema.pdf
+          AdTechDatabaseModel-DatabaseSchema.pdf
 
 -- MongoDB
 DB schema
