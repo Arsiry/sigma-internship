@@ -1,187 +1,179 @@
-1. EDA Exploratory Data Analysis
+__________________________________________________________________
+__________________________________________________________________
 
-1.1. Intro to Exploratory data analysis (EDA) in Python
-    
-    intro-to-eda.ipynb 
+INTERNSHIP TASKS
+__________________________________________________________________
 
-data.csv 
+TASK 1
 
-This data contains more of 10, 000 rows and more than 10 columns which contains features of the car such as Engine Fuel Type, Engine HP, Transmission Type, highway MPG, city MPG and many more.
-
-1.2. Detailed exploratory data analysis (EDA) with python
-
-     detailed-eda.ipynb
-
-train.csv
-
-data_description.txt
-
-1.3. Advanced Visualisation for Exploratory data analysis (EDA)
-
-     advanced-visualization-for-eda.ipynb
-
-penguins.csv 
-
-seaborn “penguins” dataset
-
-1.4. Advanced Functional Exploratory Data Analysis (EDA)
-
-     advanced-functional-eda.ipynb
-
-titanic.csv 
-
-“titanic” data set from Seaborn
-
-1.5. Univariate statistics
-
-     eda-univariate-statistics.ipynb
-
-insurance.csv
-
-heart_attack_prediction_dataset.csv
-
-1.6. Zomato Dataset EDA
-
-     eda-zomato.ipynb
-
-\zomatodataset\
-
-1.7. Black Friday Sales EDA
-
-     eda-black-friday.ipynb
-
-blackFriday_train.csv
-
-blackFriday_test.csv
-
-1.8. Flight Price Prediction EDA
-
-     eda-flight-price-prediction.ipynb
-
-Data_Train.xlsx
-
-Test_set.xlsx
+task_1.ipynb 
+(task_1_dataset/)
+(train.csv test.csv item.data csv viewlog.csv sample_submission.csv)
 
 __________________________________________________________________
 
-2. Feature Engineering
+TASK 2
 
-2.1. Example - Concrete Formulations
+task_2.ipynb (task_2_dataset/AD-Tech.csv)
+__________________________________________________________________
 
-     fe-course-1-intro.ipynb
+TASK 3
 
-Concrete_Data.xls
+-- SingleStore
+-- Created a database to ingest millions of simulated Ad Campaign events from a Kafka workspace.
+Database is configured
+Data are collected for at lease 3 days
+AdTechDatabase.pdf
 
-The Concrete dataset contains a variety of concrete formulations and the resulting product's compressive strength, which is a measure of how much load that kind of concrete can bear.
 
-2.2. Example - 1985 Automobiles¶
+AdTechDashboard.pdf
 
-     fe-course-2-mutual-info.ipynb
-
-Aumobile_data.csv
-
-The Automobile dataset consists of 193 cars from the 1985 model year. The goal for this dataset is to predict a car's price (the target) from 23 of the car's features, such as make, body_style, and horsepower. In this example, we'll rank the features with mutual information and investigate the results by data visualization.
-
-     fe-course-2-mutual-info-ex.ipynb
-
-ames.csv
-
-79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa
-
-2.3. Creating Features
-
-     fe-course-3-creating-features.ipynb
-
-autos.csv
-
-accidents.csv
-
-concrete.csv
-
-customer.csv
-
-     fe-course-3-creating-features.ipynb
-
-ames.csv
-
-79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa
-
-2.4. Clustering With K-Means
-
-     fe-course-4-clustering-with-k-means.ipynb
-
-housing.csv
-
-As spatial features, California Housing's 'Latitude' and 'Longitude' make natural candidates for k-means clustering. In this example we'll cluster these with 'MedInc' (median income) to create economic segments in different regions of California.
-
-     fe-course-4-clustering-with-k-means-ex.ipynb
-
-ames.csv
-
-Add a feature of cluster labels to Ames and learn about another kind of feature clustering can create
-
-2.5. Principal Component Analysis
-
-     fe-course-5-principal-component-analysis.ipynb
-
-     Example - 1985 Automobiles
-
-autos.csv
-
-Apply PCA, using it as a descriptive technique to discover features
-
-          fe-course-5-principal-component-analysis-ex.ipynb
-
-ames.csv
-
-You'll work through several applications of PCA to the Ames dataset
-
-2.6. Target Encoding
-
-     fe-course-6-target-encoding.ipynb
-
-movielens1m.csv
-
-The MovieLens1M dataset contains one-million movie ratings by users of the MovieLens website, with features describing each user and movie
-
-     fe-course-6-target-encoding-ex.ipynb
-
-ames.csv
-
-Apply target encoding to features in Ames and investigate a surprising way that target encoding can lead to overfitting.
-
-2.7. Advanced Feature Engineering
-
-     advanced-feature-engineering.ipynb
-
-DSB_Day1_Titanic_train.csv
-
-Titanic Dataset
-
-diamonds.csv
-
-This classic dataset contains the prices and other attributes of almost 54,000 diamonds.
-
-application_train.csv
-
-Home Credit Default Risk - Can you predict how capable each applicant is of repaying a loan?
-
-2.8. Feature Engineering Reference Guide
-
-     feature-engineering/feature-engineering-reference-guide.ipynb
-
-titanic_train.csv
-
-Titanic Dataset
 
 __________________________________________________________________
 
-3. Kaggle Competitions
+TASK 4
+__________________________________________________________________
 
-3.1. Titanic - Machine Learning from Disaster
+TASK 5
+__________________________________________________________________
 
-Predict survival on the Titanic
+TASK 6
+__________________________________________________________________
 
-- titanic_train.csv
-- titanic_test.csv
-- titanic_gender_submission.csv
+TASK 7
+
+task_3.ipynb (task_7_dataset/Dataset.csv)
+
+__________________________________________________________________
+__________________________________________________________________
+
+PRACTICE AT KAGGLE
+__________________________________________________________________
+
+KAGGLE COMPETITIONS
+
+-- Titanic - Machine Learning from Disaster
+Predict survival on the Titanic 
+(titanic_train.csv titanic_test.csv titanic_gender_submission.csv)
+titanic.ipynb 
+
+-- House Prices - Advanced Regression Techniques
+Predict sales prices 
+(housing_prices_test.csv housing_prices_train.csv housing_prices_submission.csv housing_prices_sample_submission.csv)
+housing_prices_v1.ipynb
+housing_prices_v2.ipynb
+housing_prices_v3.ipynb
+housing_prices_v4.ipynb
+housing_prices_v5.ipynb
+housing_prices_v6.ipynb
+
+__________________________________________________________________
+
+EDA 
+EXPLORATORY DATA ANALYSIS
+
+-- Intro to Exploratory data analysis (EDA) in Python
+intro-to-eda.ipynb (data.csv )
+
+-- Detailed exploratory data analysis (EDA) with python
+detailed-eda.ipynb (train.csv  data_description.txt)
+
+-- Advanced Visualisation for Exploratory data analysis (EDA)
+advanced-visualization-for-eda.ipynb (penguins.csv)
+
+-- Advanced Functional Exploratory Data Analysis (EDA)
+advanced-functional-eda.ipynb (titanic.csv) 
+
+-- Univariate statistics
+eda-univariate-statistics.ipynb (insurance.csv heart_attack_prediction_dataset.csv)
+
+-- Zomato Dataset EDA
+eda-zomato.ipynb (zomatodataset)
+
+-- Black Friday Sales EDA
+eda-black-friday.ipynb (blackFriday_train.csv  blackFriday_test.csv)
+
+-- Flight Price Prediction EDA (eda-flight-price-prediction.ipynb Data_Train.xlsx Test_set.xlsx)
+__________________________________________________________________
+
+FEATURE ENGINEERING
+
+-- Feature Engineering Kaggle Course
+fe-course-1-intro.ipynb (Concrete_Data.xls)
+fe-course-2-mutual-info.ipynb (Aumobile_data.csv)
+fe-course-2-mutual-info-ex.ipynb (ames.csv)
+fe-course-3-creating-features.ipynb (autos.csv accidents.csv concrete.csv customer.csv)
+fe-course-3-creating-features-ex.ipynb (ames.csv)
+fe-course-4-clustering-with-k-means.ipynb (housing.csv)
+fe-course-4-clustering-with-k-means-ex.ipynb (ames.csv)
+fe-course-5-principal-component-analysis.ipynb (autos.csv)
+fe-course-5-principal-component-analysis-ex.ipynb (ames.csv)
+fe-course-6-target-encoding.ipynb (movielens1m.csv)
+fe-course-6-target-encoding-ex.ipynb (ames.csv)
+
+
+-- Advanced Feature Engineering
+advanced-feature-engineering.ipynb (DSB_Day1_Titanic_train.csv diamonds.csv application_train.csv)
+
+-- Feature Engineering Reference Guide
+feature-engineering/feature-engineering-reference-guide.ipynb (titanic_train.csv)
+
+__________________________________________________________________
+
+MACHINE LEARNING KAGGLE COURSES
+Course "Intro to Machine Learning"
+melbourne-housing-beginner.ipynb
+
+Course "Intermediate Machine Learning"
+melbourne-housing-intermediate_missing_values.ipynb
+melbourne-housing-intermediate_categorical_variables.ipynb
+melbourne-housing-intermediate_pipelines.ipynb
+melbourne-housing-intermediate_cross_validation.ipynb
+melbourne-housing-intermediate_XGBoost.ipynb
+melbourne-housing-intermediate_data_leakage.ipynb
+
+(melb_data.csv AER_credit_card_data.csv)
+__________________________________________________________________
+
+DEEP LEARNING KAGGLE COURSE
+
+a-single-neuron.ipynb
+a-single-neuron-ex.ipynb
+
+deep-neural-networks.ipynb
+deep-neural-networks-ex.ipynb
+
+stochastic-gradient-descent.ipynb
+stochastic-gradient-descent-ex.ipynb
+
+overfitting-and-underfitting.ipynb
+overfitting-and-underfitting-ex.ipynb
+
+dropout-and-batch-normalization.ipynb
+dropout-and-batch-normalization-ex.ipynb
+
+binary-classification.ipynb
+binary-classification-ex.ipynb
+
+(concrete.csv fuel.csv hotel.csv ion.csv red-wine.csv spotify.csv)
+
+__________________________________________________________________
+__________________________________________________________________
+
+COURSES
+__________________________________________________________________
+
+Complete SQL and Databases Bootcamp
+__________________________________________________________________
+
+100 Days of Code: The Complete Python Pro Bootcamp
+__________________________________________________________________
+
+Python Data Structures & Algorithms + LEETCODE Exercises
+__________________________________________________________________
+
+Intermediate to Advanced Python with 10 OOP Projects
+__________________________________________________________________
+
+Digital Marketing & Advertising Masterclass - 87+ Lectures
+__________________________________________________________________
