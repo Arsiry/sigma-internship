@@ -5,20 +5,33 @@ INTERNSHIP TASKS
 __________________________________________________________________
 
 TASK 1
+
 Prepare a machine learning model
+
      Predict the probability of user clicking the ad which is shown to them on the partner websites for the next 7 days on the basis of historical view log data, ad impression data and user data.
+
 (task_1_dataset/)
+
 (train.csv item_data.csv viewlog.csv | test.csv  sample_submission.csv)
+
      The evaluated metric should be "area under the ROC curve" between the predicted probability and the observed target.
 
 -- VS Code
+
 -- Python (Numpy, Pandas, MatplotLib, Seaborn, Scikit-Learn, XGBoost)
+
 Created data transformation pipeline
+
 Pipeline produces final united dataset
+
 EDA is conducted 
+
 Feature Engineering is provided
+
 Logistic Regression, Decision Trees, Random Forest, Gradient Boosting were applied
+
 Best Model is selected (Gradient Boosting, the evaluated metric is "area under the ROC curve")
+
      task_1.ipynb 
 
 __________________________________________________________________
