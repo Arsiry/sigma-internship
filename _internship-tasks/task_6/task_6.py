@@ -25,7 +25,7 @@ def prepare_delta_table(spark):
     ])
 
     # Load data with schema applied
-    path = "impressions.csv"
+    path = "/Users/anastasiiatrofymova/projects/sigma-internship/_internship-tasks/task_6/impressions.csv"
     df = spark.read.option("header", True).schema(schema).csv(path)
 
     # Write DataFrame as Delta table
