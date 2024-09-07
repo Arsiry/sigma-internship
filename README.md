@@ -199,6 +199,9 @@ Unit tests are done
 Data Quality tests are done
 
      task_6.ipynb
+     task_6.py
+     unit_tests_task_6.py
+     data_quality_tests_task_6.py
 __________________________________________________________________
 __________________________________________________________________
 
