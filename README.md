@@ -69,7 +69,7 @@ Feature Engineering is provided
 
 ANN were applied
 
-     task_3.ipynb 
+     task_7.ipynb 
 __________________________________________________________________
 
 ## TASK 3
@@ -81,7 +81,7 @@ Created a database to ingest millions of simulated Ad Campaign events from a Kaf
 
 Database is configured
 
-     AdTechDatabase.pdf
+     AdTech_Database.pdf
 
 Data are collected for 3 days
 
@@ -91,7 +91,7 @@ Use a dashboard tool Metabase to connect to the database to visualize and analyz
 
 EDA is conducted
 
-     AdTechDashboard.pdf
+     AdTech_Dashboard.pdf
 __________________________________________________________________
 
 ## TASK 4
@@ -114,8 +114,8 @@ Data normalization
 
 Indexes
      
-     AdTechDatabaseModel-SimpleSchema.pdf
-     AdTechDatabaseModel-DatabaseSchema.pdf
+     AdTech_DatabaseModel_SimpleSchema.pdf
+     AdTech_DatabaseModel_DatabaseSchema.pdf
 
 ### MongoDB
 
@@ -123,11 +123,11 @@ DB schema
 
 Aggregation framework
 
-     MongoDb-Database.pdf
+     MongoDb_Database.pdf
 
 Raw queries
 
-     MongoDB-Mongosh.pdf
+     MongoDB_Mongosh.pdf
 __________________________________________________________________
 
 ## TASK 5
@@ -149,8 +149,8 @@ Data normalization
 
 Indexes
  
-     AdTechDatabaseModel-SimpleSchema.pdf
-     AdTechDatabaseModel-DatabaseSchema.pdf
+     AdTech_DatabaseModel_SimpleSchema.pdf
+     AdTech_DatabaseModel_DatabaseSchema.pdf
 
 ### Postres
 ### Valentina Studio
@@ -159,7 +159,7 @@ DB schema
 
 Aggregation framework
 
-     PostgreSQLDatabase.pdf
+     PostgreSQL_Database.pdf
 
 Raw queries
 

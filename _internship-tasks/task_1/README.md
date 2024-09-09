@@ -10,7 +10,7 @@ The evaluated metric could be "area under the ROC curve" between the predicted p
 ## Content
 * `/task_1_dataset/train.csv`, train data contains the impression logs during 2018/11/15 – 2018/12/13 along with the label which specifies whether the ad is clicked or not 
 * `/task_1_dataset/view_log.csv`, view log of users (2018/10/15 - 2018/12/11)
-* `/task_1_dataset/item_data.csv`, product description
+* `/task_1_dataset/item_data.csv`, products descriptions
 * `task_1.ipynb`, jupiter notebook: collecting data, EDA, feature engineering, classical ML models application
 
 The final dataset was created like this: 
@@ -24,4 +24,4 @@ EDA was done. The dataset was checked for missing values and outliers. Categoric
 The following ML models were used: Logistic Regression, Decision Trees, Random Forest, and XGBoost. The XGBoost model gave the best result.
 
 Link to Kaggle:
-`https://www.kaggle.com/code/annatrofy/ad-tech-decision-trees-random-forest-xgboost`
+`https://www.kaggle.com/code/annatrofy/context-ad-clicks-machine-learning-algorithms`
