@@ -173,11 +173,11 @@ __________________________________________________________________
 
 ## TASK 6
 ## Create a delta/csv spark table and build a data transformation pipeline with at least 3 aggregations and filtering.
-     
-     impressions.csv (train.csv)
 
 BD in AdTech domain from Task 1:
-     
+
+     impressions.csv (train.csv)
+   
 ### VS Code
 ### Python (PySpark, Delta)
 
