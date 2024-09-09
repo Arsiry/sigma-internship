@@ -236,33 +236,42 @@ __________________________________________________________________
 #### EXPLORATORY DATA ANALYSIS
 
 Intro to Exploratory data analysis (EDA) in Python
-     intro-to-eda.ipynb (data.csv )
+     
+     intro-to-eda.ipynb (data.csv)
 
 Detailed exploratory data analysis (EDA) with python
+     
      detailed-eda.ipynb (train.csv  data_description.txt)
 
 Advanced Visualisation for Exploratory data analysis (EDA)
+     
      advanced-visualization-for-eda.ipynb (penguins.csv)
 
 Advanced Functional Exploratory Data Analysis (EDA)
+     
      advanced-functional-eda.ipynb (titanic.csv) 
 
 Univariate statistics
+     
      eda-univariate-statistics.ipynb (insurance.csv heart_attack_prediction_dataset.csv)
 
 Zomato Dataset EDA
+     
      eda-zomato.ipynb (zomatodataset)
 
 Black Friday Sales EDA
+     
      eda-black-friday.ipynb (blackFriday_train.csv  blackFriday_test.csv)
 
 Flight Price Prediction EDA 
+     
      eda-flight-price-prediction.ipynb (Data_Train.xlsx Test_set.xlsx)
 __________________________________________________________________
 
 #### FEATURE ENGINEERING
 
 Feature Engineering Kaggle Course
+     
      fe-course-1-intro.ipynb (Concrete_Data.xls)
      fe-course-2-mutual-info.ipynb (Aumobile_data.csv)
      fe-course-2-mutual-info-ex.ipynb (ames.csv)
@@ -276,18 +285,22 @@ Feature Engineering Kaggle Course
      fe-course-6-target-encoding-ex.ipynb (ames.csv)
 
 Advanced Feature Engineering
+     
      advanced-feature-engineering.ipynb (DSB_Day1_Titanic_train.csv diamonds.csv application_train.csv)
 
 Feature Engineering Reference Guide
+     
      feature-engineering/feature-engineering-reference-guide.ipynb (titanic_train.csv)
 __________________________________________________________________
 
 #### MACHINE LEARNING KAGGLE COURSES
 
 Course "Intro to Machine Learning"
+     
      melbourne-housing-beginner.ipynb
 
 Course "Intermediate Machine Learning"
+     
      melbourne-housing-intermediate_missing_values.ipynb
      melbourne-housing-intermediate_categorical_variables.ipynb
      melbourne-housing-intermediate_pipelines.ipynb
