@@ -1,10 +1,10 @@
 __________________________________________________________________
 __________________________________________________________________
 
-# INTERNSHIP TASKS
+### INTERNSHIP TASKS
 __________________________________________________________________
 
-## TASK 1
+#### TASK 1
 
 Prepare a machine learning model
 
@@ -33,7 +33,7 @@ Best Model is selected (Gradient Boosting, the evaluated metric is "area under t
      task_1.ipynb 
 __________________________________________________________________
 
-## TASK 2
+#### TASK 2
 
 Prepare a machine learning model
 
@@ -55,7 +55,7 @@ Best Model is selected (Random Forest and Gradient Boosting, the evaluated metri
      task_2.ipynb 
 __________________________________________________________________
 
-## TASK 7
+#### TASK 7
 
 Prepare a machine learning model
 
@@ -75,7 +75,7 @@ ANN were applied
      task_3.ipynb 
 __________________________________________________________________
 
-## TASK 3
+#### TASK 3
 
 Collect data and Provide EDA
 
@@ -98,7 +98,7 @@ EDA is conducted
      AdTechDashboard.pdf
 __________________________________________________________________
 
-## TASK 4
+#### TASK 4
 
 Database Mongo 
 
@@ -134,7 +134,7 @@ Raw queries
      MongoDB-Mongosh.pdf
 __________________________________________________________________
 
-## TASK 5
+#### TASK 5
 
 Database Postgres 
 
@@ -177,7 +177,7 @@ Raw queries
      ad_tech_sql_create_table_3.sql
 __________________________________________________________________
 
-## TASK 6
+#### TASK 6
 
 Create a delta/csv spark table and build a data transformation pipeline with at least 3 aggregations and filtering.
      
@@ -205,10 +205,10 @@ Data Quality tests are done
 __________________________________________________________________
 __________________________________________________________________
 
-# PRACTICE AT KAGGLE
+### PRACTICE AT KAGGLE
 __________________________________________________________________
 
-## KAGGLE COMPETITIONS
+#### KAGGLE COMPETITIONS
 
      -- Titanic - Machine Learning from Disaster
 
@@ -232,9 +232,8 @@ Predict sales prices
 
 __________________________________________________________________
 
-## EDA 
-
-### EXPLORATORY DATA ANALYSIS
+#### EDA 
+#### EXPLORATORY DATA ANALYSIS
 
 Intro to Exploratory data analysis (EDA) in Python
      intro-to-eda.ipynb (data.csv )
@@ -261,7 +260,7 @@ Flight Price Prediction EDA
      eda-flight-price-prediction.ipynb (Data_Train.xlsx Test_set.xlsx)
 __________________________________________________________________
 
-## FEATURE ENGINEERING
+#### FEATURE ENGINEERING
 
 Feature Engineering Kaggle Course
      fe-course-1-intro.ipynb (Concrete_Data.xls)
@@ -283,7 +282,7 @@ Feature Engineering Reference Guide
      feature-engineering/feature-engineering-reference-guide.ipynb (titanic_train.csv)
 __________________________________________________________________
 
-## MACHINE LEARNING KAGGLE COURSES
+#### MACHINE LEARNING KAGGLE COURSES
 
 Course "Intro to Machine Learning"
      melbourne-housing-beginner.ipynb
@@ -299,7 +298,7 @@ Course "Intermediate Machine Learning"
      (melb_data.csv AER_credit_card_data.csv)
 __________________________________________________________________
 
-## DEEP LEARNING KAGGLE COURSE
+#### DEEP LEARNING KAGGLE COURSE
 
      a-single-neuron.ipynb
      a-single-neuron-ex.ipynb
@@ -319,7 +318,7 @@ __________________________________________________________________
 __________________________________________________________________
 __________________________________________________________________
 
-COURSES
+### COURSES
 __________________________________________________________________
 
 Udemy
