@@ -1,11 +1,11 @@
 __________________________________________________________________
 __________________________________________________________________
 
-## INTERNSHIP TASKS
+# INTERNSHIP TASKS
 __________________________________________________________________
 
-### TASK 1
-### Prepare a machine learning model
+## TASK 1
+## Prepare a machine learning model
 
 Predict the probability of user clicking the ad which is shown to them on the partner websites for the next 7 days on the basis of historical view log data, ad impression data and user data.
 
@@ -14,8 +14,8 @@ Predict the probability of user clicking the ad which is shown to them on the pa
 
 The evaluated metric should be "area under the ROC curve" between the predicted probability and the observed target.
 
-#### VS Code
-#### Python (Numpy, Pandas, MatplotLib, Seaborn, Scikit-Learn, XGBoost)
+### VS Code
+### Python (Numpy, Pandas, MatplotLib, Seaborn, Scikit-Learn, XGBoost)
 
 Created data transformation pipeline
 
@@ -32,15 +32,15 @@ Best Model is selected (Gradient Boosting, the evaluated metric is "area under t
      task_1.ipynb 
 __________________________________________________________________
 
-### TASK 2
-### Prepare a machine learning model
+## TASK 2
+## Prepare a machine learning model
 
 The dataset provided to you has data for several websites owned by the same company and they are asking for your help for what should be their approach to set reserve prices and what is the range for reserve prices they should be setting for July.
 
      (task_2_dataset/AD-Tech.csv)
 
-#### VS Code
-#### Python (Numpy, Pandas, MatplotLib, Seaborn, Scipy, Scikit-Learn, XGBoost)
+### VS Code
+### Python (Numpy, Pandas, MatplotLib, Seaborn, Scipy, Scikit-Learn, XGBoost)
 
 EDA is conducted 
 
@@ -53,15 +53,15 @@ Best Model is selected (Random Forest and Gradient Boosting, the evaluated metri
      task_2.ipynb 
 __________________________________________________________________
 
-### TASK 7
-### Prepare a machine learning model
+## TASK 7
+## Prepare a machine learning model
 
 The dataset provided to you has data for several websites owned by the same company and they are asking for your help for what should be their approach to set reserve prices and what is the range for reserve prices they should be setting for July.
 
      (task_7_dataset/Dataset.csv - dataset equal to dataset of Task 2)
 
-#### VS Code
-#### Python (Numpy, Pandas, MatplotLib, Seaborn, Scipy, Scikit-Learn, TensorFlow, Keras)
+### VS Code
+### Python (Numpy, Pandas, MatplotLib, Seaborn, Scipy, Scikit-Learn, TensorFlow, Keras)
 
 EDA is conducted 
 
@@ -72,12 +72,12 @@ ANN were applied
      task_3.ipynb 
 __________________________________________________________________
 
-### TASK 3
-### Collect data and Provide EDA
+## TASK 3
+## Collect data and Provide EDA
 
 Created a database to ingest millions of simulated Ad Campaign events from a Kafka workspace.
 
-#### SingleStore
+### SingleStore
 
 Database is configured
 
@@ -85,7 +85,7 @@ Database is configured
 
 Data are collected for 3 days
 
-#### Metabase
+### Metabase
 
 Use a dashboard tool Metabase to connect to the database to visualize and analyze the event data.
 
@@ -94,8 +94,8 @@ EDA is conducted
      AdTechDashboard.pdf
 __________________________________________________________________
 
-### TASK 4
-### Database Mongo 
+## TASK 4
+## Database Mongo 
 
 Design the DB for a task in AdTech domain. Make queries for data ingestion, extraction, aggregation.
 
@@ -106,7 +106,7 @@ BD in AdTech domain from Task 1:
      item_data.csv 
 
 
-#### Lucidchart
+### Lucidchart
 
 Visual data model diagram
 
@@ -117,7 +117,7 @@ Indexes
      AdTechDatabaseModel-SimpleSchema.pdf
      AdTechDatabaseModel-DatabaseSchema.pdf
 
-#### MongoDB
+### MongoDB
 
 DB schema
 
@@ -130,8 +130,8 @@ Raw queries
      MongoDB-Mongosh.pdf
 __________________________________________________________________
 
-### TASK 5
-### Database Postgres 
+## TASK 5
+## Database Postgres 
 
 Design the DB for a task in AdTech domain. Make queries for data ingestion, extraction, aggregation.
 
@@ -141,7 +141,7 @@ BD in AdTech domain from Task 1:
      viewlog.csv
      item_data.csv
 
-#### Lucidchart
+### Lucidchart
 
 Visual data model diagram
 
@@ -152,8 +152,8 @@ Indexes
      AdTechDatabaseModel-SimpleSchema.pdf
      AdTechDatabaseModel-DatabaseSchema.pdf
 
-#### Postres
-#### Valentina Studio
+### Postres
+### Valentina Studio
 
 DB schema
 
@@ -171,15 +171,15 @@ Raw queries
      ad_tech_sql_create_table_3.sql
 __________________________________________________________________
 
-### TASK 6
-### Create a delta/csv spark table and build a data transformation pipeline with at least 3 aggregations and filtering.
+## TASK 6
+## Create a delta/csv spark table and build a data transformation pipeline with at least 3 aggregations and filtering.
      
      impressions.csv (train.csv)
 
 BD in AdTech domain from Task 1:
      
-#### VS Code
-#### Python (PySpark, Delta)
+### VS Code
+### Python (PySpark, Delta)
 
 Delta/csv spark table created
 
@@ -198,19 +198,19 @@ Data Quality tests are done
 __________________________________________________________________
 __________________________________________________________________
 
-## PRACTICE AT KAGGLE
+# PRACTICE AT KAGGLE
 __________________________________________________________________
 
-### KAGGLE COMPETITIONS
+## KAGGLE COMPETITIONS
 
-#### Titanic - Machine Learning from Disaster
+### Titanic - Machine Learning from Disaster
 
 Predict survival on the Titanic 
 
      (titanic_train.csv titanic_test.csv titanic_gender_submission.csv)
      titanic.ipynb 
 
-#### House Prices - Advanced Regression Techniques
+### House Prices - Advanced Regression Techniques
 
 Predict sales prices 
      
@@ -225,8 +225,8 @@ Predict sales prices
 
 __________________________________________________________________
 
-### EDA 
-### EXPLORATORY DATA ANALYSIS
+## EDA 
+## EXPLORATORY DATA ANALYSIS
 
 Intro to Exploratory data analysis (EDA) in Python
      
@@ -261,7 +261,7 @@ Flight Price Prediction EDA
      eda-flight-price-prediction.ipynb (Data_Train.xlsx Test_set.xlsx)
 __________________________________________________________________
 
-### FEATURE ENGINEERING
+## FEATURE ENGINEERING
 
 Feature Engineering Kaggle Course
      
@@ -286,7 +286,7 @@ Feature Engineering Reference Guide
      feature-engineering/feature-engineering-reference-guide.ipynb (titanic_train.csv)
 __________________________________________________________________
 
-### MACHINE LEARNING KAGGLE COURSES
+## MACHINE LEARNING KAGGLE COURSES
 
 Course "Intro to Machine Learning"
      
@@ -304,7 +304,7 @@ Course "Intermediate Machine Learning"
      (melb_data.csv AER_credit_card_data.csv)
 __________________________________________________________________
 
-### DEEP LEARNING KAGGLE COURSE
+## DEEP LEARNING KAGGLE COURSE
 
      a-single-neuron.ipynb
      a-single-neuron-ex.ipynb
@@ -324,7 +324,7 @@ __________________________________________________________________
 __________________________________________________________________
 __________________________________________________________________
 
-## COURSES
+# COURSES
 __________________________________________________________________
 
 Udemy
