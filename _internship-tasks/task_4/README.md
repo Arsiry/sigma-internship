@@ -4,9 +4,9 @@
 Design the DB for a task in AdTech domain. Make queries for data ingestion, extraction, aggregation.
 
 I used BD in AdTech domain from Task 1:
-     `train.csv`, the impression logs     
-     `viewlog.csv`, view log of users    
-     `item_data.csv`, products descriptions
+* `train.csv`, the impression logs     
+* `viewlog.csv`, view log of users    
+* `item_data.csv`, products descriptions
 
 ## Content
 * `AdTech_DatabaseModel_SimpleSchema.pdf`, Lucidchart, Visual data model diagram, Simple Schema 
