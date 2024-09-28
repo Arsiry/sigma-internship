@@ -13,4 +13,5 @@ I used BD in AdTech domain from Task 1:
 * `AdTech_DatabaseModel_DatabaseSchema.pdf`, Lucidchart, Visual data model diagram
 * `MongoDb_Database.pdf`, MondoDB screenshots
 * `MongoDb_Mongosh.pdf`, MondoDB raw queries
-
+* `connect_to_db_pymongo.ipynb` - python notebook - This Python script connects to a MongoDB database using pymongo, executes multiple queries.
+* `connect_to_db_sqlalchemy.ipynb` - python notebook - This Python script connects to a MongoDB database using ODM MongoEngine, executes multiple queries.

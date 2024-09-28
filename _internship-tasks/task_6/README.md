@@ -1,4 +1,4 @@
-# TASK 6
+# TASK 6 (Version 1 - pytest)
 Create a delta/csv spark table and build a data transformation pipeline with at least 3 aggregations and filtering
 
 ## Content
