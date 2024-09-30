@@ -9,9 +9,6 @@ __________________________________________________________________
 
 Predict the probability of user clicking the ad which is shown to them on the partner websites for the next 7 days on the basis of historical view log data, ad impression data and user data.
 
-     (task_1_dataset/)
-     (train.csv item_data.csv viewlog.csv | test.csv  sample_submission.csv)
-
 The evaluated metric should be "area under the ROC curve" between the predicted probability and the observed target.
 
 ### VS Code
@@ -29,15 +26,12 @@ Logistic Regression, Decision Trees, Random Forest, Gradient Boosting were appli
 
 Best Model is selected (Gradient Boosting, the evaluated metric is "area under the ROC curve")
 
-     task_1.ipynb 
 __________________________________________________________________
 
 ## TASK 2
 ## Prepare a machine learning model
 
 The dataset provided to you has data for several websites owned by the same company and they are asking for your help for what should be their approach to set reserve prices and what is the range for reserve prices they should be setting for July.
-
-     (task_2_dataset/AD-Tech.csv)
 
 ### VS Code
 ### Python (Numpy, Pandas, MatplotLib, Seaborn, Scipy, Scikit-Learn, XGBoost)
@@ -50,15 +44,12 @@ Decision Trees, Random Forest, Gradient Boosting were applied
 
 Best Model is selected (Random Forest and Gradient Boosting, the evaluated metric is mean absolute error)
 
-     task_2.ipynb 
 __________________________________________________________________
 
 ## TASK 7
 ## Prepare a machine learning model
 
 The dataset provided to you has data for several websites owned by the same company and they are asking for your help for what should be their approach to set reserve prices and what is the range for reserve prices they should be setting for July.
-
-     (task_7_dataset/Dataset.csv - dataset equal to dataset of Task 2)
 
 ### VS Code
 ### Python (Numpy, Pandas, MatplotLib, Seaborn, Scipy, Scikit-Learn, TensorFlow, Keras)
@@ -69,7 +60,8 @@ Feature Engineering is provided
 
 ANN were applied
 
-     task_7.ipynb 
+The python app which makes prediction with the model via JSON was builded
+
 __________________________________________________________________
 
 ## TASK 3
@@ -81,30 +73,25 @@ Created a database to ingest millions of simulated Ad Campaign events from a Kaf
 
 Database is configured
 
-     AdTech_Database.pdf
-
 Data are collected for 3 days
 
 ### Metabase
 
 Use a dashboard tool Metabase to connect to the database to visualize and analyze the event data.
 
+### VS Code
+### Python (Numpy, Pandas, MatplotLib, Seaborn, SQLAlchemy, MySQL Connector)
+
+Created python notebooks which is connect to database using mysql.connector and ORM SQLAlchemy. 
+
 EDA is conducted
 
-     AdTech_Dashboard.pdf
 __________________________________________________________________
 
 ## TASK 4
 ## Database Mongo 
 
-Design the DB for a task in AdTech domain. Make queries for data ingestion, extraction, aggregation.
-
-BD in AdTech domain from Task 1:
-
-     train.csv     
-     viewlog.csv    
-     item_data.csv 
-
+Design the DB for a task in AdTech domain. Make queries for data ingestion, extraction, aggregation. 
 
 ### Lucidchart
 
@@ -113,9 +100,6 @@ Visual data model diagram
 Data normalization
 
 Indexes
-     
-     AdTech_DatabaseModel_SimpleSchema.pdf
-     AdTech_DatabaseModel_DatabaseSchema.pdf
 
 ### MongoDB
 
@@ -123,23 +107,19 @@ DB schema
 
 Aggregation framework
 
-     MongoDb_Database.pdf
-
 Raw queries
 
-     MongoDB_Mongosh.pdf
+### VS Code
+### Python (Numpy, Pandas, MatplotLib, Seaborn, MongoEngine, PyMongo)
+
+Created python notebooks which is connected to database using PyMongo and ODM MongoEngine and executed multiple queries
+
 __________________________________________________________________
 
 ## TASK 5
 ## Database Postgres 
 
 Design the DB for a task in AdTech domain. Make queries for data ingestion, extraction, aggregation.
-
-BD in AdTech domain from Task 1:
-
-     train.csv 
-     viewlog.csv
-     item_data.csv
 
 ### Lucidchart
 
@@ -148,9 +128,6 @@ Visual data model diagram
 Data normalization
 
 Indexes
- 
-     AdTech_DatabaseModel_SimpleSchema.pdf
-     AdTech_DatabaseModel_DatabaseSchema.pdf
 
 ### Postres
 ### Valentina Studio
@@ -159,24 +136,19 @@ DB schema
 
 Aggregation framework
 
-     PostgreSQL_Database.pdf
-
 Raw queries
 
-     ad_tech_sql_collecting_data_1.sql
-     ad_tech_sql_collecting_data_2.sql
-     ad_tech_sql_collecting_data_3.sql
-     ad_tech_sql_create_table_1.sql
-     ad_tech_sql_create_table_2.sql
-     ad_tech_sql_create_table_3.sql
+### VS Code
+### Python (Numpy, Pandas, MatplotLib, Seaborn, SQLAlchemy, Psycopg2)
+
+Created python notebooks which is connected to database using Psycopg2 and ORM SQLAlchemy and executed multiple SQL queries. 
+
 __________________________________________________________________
 
 ## TASK 6
 ## Create a delta/csv spark table and build a data transformation pipeline with at least 3 aggregations and filtering.
 
 BD in AdTech domain from Task 1:
-
-     impressions.csv (train.csv)
    
 ### VS Code
 ### Python (PySpark, Delta)
@@ -191,10 +163,6 @@ Unit tests are done
 
 Data Quality tests are done
 
-     task_6.ipynb
-     task_6.py
-     unit_tests_task_6.py
-     data_quality_tests_task_6.py
 __________________________________________________________________
 __________________________________________________________________
 
